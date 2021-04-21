@@ -162,15 +162,10 @@ main{
     background-color: #1f60ad;
 }
 /*Start navBar*/
-
-
 .wrapper{
     display:flex;
     text-decoration: none;
     transition: all 0.3s;
-    
-   
-
 }
 #sidebar{
     width:150px;
@@ -194,22 +189,17 @@ main{
     text-align: left;
     transition:all 0.2s ease;
     padding-top: 10px;
-    
-
 }
 #sidebar ul li .icon{
     display: inline-block;
-    padding: 0 5px 0 15px;
-   
-    
+    padding: 0 5px 0 15px;  
 }
 #sidebar ul li a:hover,#sidebar ul li a.active{
     color: #28459f;
     background-color: #e5f3ff;
 }
 #sidebar ul li a.a_parent.active + .dd_menu{
-    display: block;
-    
+    display: block;   
 }
 
 .dd_menu_a:hover{
@@ -217,7 +207,6 @@ main{
  background-color:#8fafd6
 }
 #sidebar .dd_menu {
-/*    position: absolute;*/
     top: 40px;
     margin-bottom:0;
     display: none;
@@ -252,8 +241,7 @@ main{
     border: none ;
     width: 108px;
     font-size: 12px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin:5px 0;
     padding: 5px 10px;
     
 }
@@ -307,7 +295,7 @@ aside{
 }
 /*End Article*/
 /*--------------------------------------*/
-/*Start Slider*/
+/*Start Queries*/
 .sid .par{
    
     background-color: #e5f3ff;
@@ -386,7 +374,7 @@ section ul Button{
 
 
 
-/*End Slider*/
+/*End Queries*/
 /*media Query*/
 @media (max-width:768px){
     .navbar{
