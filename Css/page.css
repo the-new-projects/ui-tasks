@@ -163,7 +163,6 @@ main{
 }
 /*Start navBar*/
 .wrapper{
-    display:flex;
     text-decoration: none;
     transition: all 0.3s;
 }
